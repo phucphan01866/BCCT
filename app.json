@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Bầu cua tôm cá",
+    "slug": "app-bau-cua",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/bauCua.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.bao333333.appbaucua"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "14342428-9be8-4adc-b10b-533e82fa4771"
+      }
+    }
+  }
+}
